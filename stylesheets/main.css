@@ -1,0 +1,10 @@
+body {
+    background-color: #eee;
+    font-family: Helvetica, sans-serif;
+}
+
+.center{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+  }

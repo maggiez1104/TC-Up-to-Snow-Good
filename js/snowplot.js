@@ -7,5 +7,17 @@ canvas.height = 300;
 var ctx = canvas.getContext("2d");
 
 // Change the background color of the canvas.
-ctx.fillStyle = "snow";
-ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+function setCanvasColor(c) {
+    ctx.fillStyle = "lime";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    return null;
+}
+
+function draw() {
+    setCanvasColor("lime");
+}
+
+draw();
+
+
